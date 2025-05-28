@@ -1,18 +1,16 @@
 <?php
-include "../includes/config.php";
-include "../includes/header.php";
-include "../includes/navbar.php";
+// include "../includes/config.php";
+include "./includes/header.php";
+include "./includes/navbar.php";
 ?>
 
 <main class="container mt-4">
     <?php
-    $file = "../pages/{$page}.php";
+    $file = "./pages/{$page}.php";
     if (file_exists($file)) {
         include $file;
-    } else {
-        echo "<p>Página no encontrada.</p>";
-    }
+    } 
     ?>
 </main>
 
-<?php include "../includes/footer.php"; ?>
+<?php include "./includes/footer.php"; ?>

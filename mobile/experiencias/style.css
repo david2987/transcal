@@ -1,0 +1,697 @@
+.i-phone-16-4,
+.i-phone-16-4 * {
+  box-sizing: border-box;
+}
+.i-phone-16-4 {
+  background: #ffffff;
+  height: 3288px;
+  position: relative;
+  overflow: hidden;
+}
+.nav {
+  width: 393px;
+  height: 49px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.list-1-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 345px;
+  top: 14px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.image-2 {
+  width: 86.07px;
+  height: 14px;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  translate: 0 -50%;
+  object-fit: cover;
+  aspect-ratio: 86.07/14;
+}
+.frame-20 {
+  width: 393px;
+  height: 1431px;
+  position: absolute;
+  left: 0px;
+  top: 49px;
+}
+.rectangle-4686 {
+  background: #ffffff;
+  width: 393px;
+  height: 1431px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.nuestra-capacidad-operativa {
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 50px;
+  width: 343px;
+}
+.nuestra-capacidad-operativa-span {
+  color: #000000;
+}
+.nuestra-capacidad-operativa-span2 {
+  color: #e95a0a;
+}
+.group-56 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-49 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 343px;
+  height: 393.42px;
+  position: absolute;
+  left: 25px;
+  top: 168px;
+}
+.rectangle-79 {
+  border-radius: 24px 24px 0px 0px;
+  width: 343px;
+  height: 181px;
+  position: absolute;
+  left: 25px;
+  top: 168px;
+  object-fit: cover;
+}
+.group-55 {
+  width: 295.06px;
+  height: 146.36px;
+  position: static;
+}
+.flota-moderna {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 382px;
+  width: 286px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-67 {
+  background: #e95a0a;
+  border-radius: 6.5px;
+  width: 4.13px;
+  height: 82.65px;
+  position: absolute;
+  left: 132.45px;
+  top: 426.7px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.contamos-con-20-tractores-y-30-semirremolques-con-el-80-de-nuestra-flota-modelo-2018-en-adelante {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 49.8px;
+  top: 458.93px;
+  width: 295.06px;
+  height: 69.43px;
+}
+.group-57 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-492 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 343px;
+  height: 393.42px;
+  position: absolute;
+  left: 25px;
+  top: 577.95px;
+}
+.rectangle-792 {
+  border-radius: 24px 24px 0px 0px;
+  width: 343px;
+  height: 181px;
+  position: absolute;
+  left: 25px;
+  top: 577.95px;
+  object-fit: cover;
+}
+.group-552 {
+  width: 289.2px;
+  height: 146px;
+  position: static;
+}
+.cobertura-internacional {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 792px;
+  width: 289px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-672 {
+  background: #e95a0a;
+  border-radius: 6.5px;
+  width: 4.13px;
+  height: 82.65px;
+  position: absolute;
+  left: 132.45px;
+  top: 836.64px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.presencia-directa-en-argentina-uruguay-paraguay-bolivia-brasil-y-chile {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 869px;
+  width: 273px;
+  height: 69px;
+}
+.group-58 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-493 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 343px;
+  height: 393.42px;
+  position: absolute;
+  left: 25px;
+  top: 987.89px;
+}
+.rectangle-793 {
+  border-radius: 24px 24px 0px 0px;
+  width: 343px;
+  height: 181px;
+  position: absolute;
+  left: 25px;
+  top: 987.89px;
+  object-fit: cover;
+}
+.group-553 {
+  width: 299.2px;
+  height: 146px;
+  position: static;
+}
+.personal-calificado {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50px;
+  top: 1202px;
+  width: 299px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-673 {
+  background: #e95a0a;
+  border-radius: 6.5px;
+  width: 4.13px;
+  height: 82.65px;
+  position: absolute;
+  left: 132.45px;
+  top: 1246.59px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.choferes-certificados-para-todo-tipo-de-cargas-incluyendo-mercanc-as-peligrosas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 50px;
+  top: 1279px;
+  width: 286px;
+  height: 69px;
+}
+.frame-15 {
+  background: #001a44;
+  width: 393px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1480px;
+  overflow: hidden;
+}
+.rectangle-60 {
+  opacity: 0.3;
+  width: 901px;
+  height: 404px;
+  position: absolute;
+  left: -204px;
+  top: 1px;
+  mix-blend-mode: plus-lighter;
+  object-fit: cover;
+}
+.disponemos-de-una-red-de-despachantes-y-apoderados-en-todas-las-fronteras-de-los-pa-ses-lim-trofes-garantizando-una-gesti-n-eficiente-y-r-pida-resoluci-n-de-cualquier-situaci-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 71px);
+  width: 343px;
+  height: 148px;
+}
+.disponemos-de-una-red-de-despachantes-y-apoderados-en-todas-las-fronteras-de-los-pa-ses-lim-trofes-garantizando-una-gesti-n-eficiente-y-r-pida-resoluci-n-de-cualquier-situaci-n-span {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-weight: 500;
+}
+.disponemos-de-una-red-de-despachantes-y-apoderados-en-todas-las-fronteras-de-los-pa-ses-lim-trofes-garantizando-una-gesti-n-eficiente-y-r-pida-resoluci-n-de-cualquier-situaci-n-span2 {
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-weight: 600;
+}
+.disponemos-de-una-red-de-despachantes-y-apoderados-en-todas-las-fronteras-de-los-pa-ses-lim-trofes-garantizando-una-gesti-n-eficiente-y-r-pida-resoluci-n-de-cualquier-situaci-n-span3 {
+  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-weight: 800;
+}
+.disponemos-de-una-red-de-despachantes-y-apoderados-en-todas-las-fronteras-de-los-pa-ses-lim-trofes-garantizando-una-gesti-n-eficiente-y-r-pida-resoluci-n-de-cualquier-situaci-n-span4 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.frame-21 {
+  width: 392px;
+  height: 803px;
+  position: absolute;
+  left: 1px;
+  top: 1880px;
+}
+.rectangle-4677 {
+  background: #f4f3f3;
+  width: 392px;
+  height: 803px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.contamos-con-todas-las-habilitaciones-necesarias-para {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 24px;
+  top: 50px;
+  width: 343px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 343px;
+  position: absolute;
+  left: 24px;
+  top: 148px;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-2-circle-1-1 {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.transporte-de-cargas-generales {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-2-circle-1-12 {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.cargas-peligrosas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.frame-112 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-2-circle-1-13 {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.cargas-completas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-2-circle-1-14 {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.cargas-consolidadas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-2-circle-1-15 {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.contenedores {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-2-circle-1-16 {
+  flex-shrink: 0;
+  width: 28.57px;
+  height: 28.57px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.cargas-con-extra-medida {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.whats-app-image-2022-09-21-at-13-08-54-1-2 {
+  border-radius: 14px;
+  width: 343px;
+  height: 305px;
+  position: absolute;
+  left: 24px;
+  top: 448px;
+  object-fit: cover;
+}
+.footer {
+  background: #ffffff;
+  width: 393px;
+  height: 605px;
+  position: absolute;
+  left: 0px;
+  top: 2683px;
+  overflow: hidden;
+}
+.rectangle-23 {
+  background: #001a44;
+  width: 393px;
+  height: 605px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.rectangle-24 {
+  background: #0a295c;
+  width: 393px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 533px;
+}
+.t-rminos-y-condiciones {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: 558px;
+  width: 217px;
+}
+.image-5 {
+  width: 217.85px;
+  height: 52px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  object-fit: cover;
+  aspect-ratio: 217.85/52;
+}
+.group-15 {
+  position: absolute;
+  inset: 0;
+}
+.nuestros-servicios {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 25px;
+  top: 127px;
+}
+.sobre-nosotros {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 25px;
+  top: 169px;
+}
+.experiencia {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 25px;
+  top: 214px;
+}
+.group-14 {
+  position: absolute;
+  inset: 0;
+}
+.contacto {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 25px;
+  top: 343px;
+}
+._0054-0353-4899128 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 121.88%;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: 385px;
+}
+.info-transcal-com-ar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 121.88%;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: 426px;
+}
+._000-000-000-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 121.88%;
+  font-weight: 500;
+  position: absolute;
+  left: 25px;
+  top: 463px;
+}
+.facebook-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 299px;
+  top: 558px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.instagram-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 346px;
+  top: 558px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.linkedin-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 252px;
+  top: 558px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.vector-1 {
+  width: 342.5px;
+  height: 0px;
+  position: absolute;
+  left: 25px;
+  top: 293px;
+  overflow: visible;
+}

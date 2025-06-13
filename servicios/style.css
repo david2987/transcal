@@ -1,0 +1,856 @@
+a{
+  color: #000 !important;
+}
+
+.servicios,
+.servicios * {
+  box-sizing: border-box;
+}
+.servicios {
+  /* background: #ffffff; */  
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ofrecemos-soluciones-de-transporte-adaptadas-a-cada-necesidad {
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 190px;
+  width: 780px;
+}
+.ofrecemos-soluciones-de-transporte-adaptadas-a-cada-necesidad-span {
+  color: #000000;
+}
+.ofrecemos-soluciones-de-transporte-adaptadas-a-cada-necesidad-span2 {
+  color: #e95a0a;
+}
+.frame-17 {
+  background: #f4f3f3;
+  width: 100%;
+  height: 654px;
+  position: absolute;
+  left: 0px;
+  top: 1955px;
+}
+.servicios-adicionales-para-una-log-stica-integral {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 150px;
+}
+.servicios-adicionales-para-una-log-stica-integral-span {
+  color: #000000;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.servicios-adicionales-para-una-log-stica-integral-span2 {
+  color: #e95a0a;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 253px;
+}
+.group-56 {
+  flex-shrink: 0;
+  width: 398px;
+  height: 251px;
+  position: static;
+}
+.rectangle-49 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 398px;
+  height: 251px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-55 {
+  width: 338px;
+  height: 178px;
+  position: static;
+}
+.despachos-aduaneros {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-67 {
+  background: #e95a0a;
+  border-radius: 6.5px;
+  width: 5px;
+  height: 100px;
+  position: absolute;
+  left: 130px;
+  top: 95px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.gesti-n-completa-de-tr-mites-aduaneros-en-todos-los-pa-ses-donde-operamos {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 134px;
+  width: 338px;
+  height: 84px;
+}
+.group-57 {
+  flex-shrink: 0;
+  width: 398px;
+  height: 251px;
+  position: static;
+}
+.rectangle-492 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 398px;
+  height: 251px;
+  position: absolute;
+  left: 418px;
+  top: 0px;
+}
+.group-54 {
+  width: 329px;
+  height: 169px;
+  position: static;
+}
+.seguros-de-carga {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 449px;
+  top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-68 {
+  background: #e95a0a;
+  border-radius: 6.5px;
+  width: 5px;
+  height: 100px;
+  position: absolute;
+  left: 549px;
+  top: 96px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.protecci-n-integral-para-su-mercader-a-durante-todo-el-trayecto {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 449px;
+  top: 154px;
+  width: 329px;
+}
+.group-58 {
+  flex-shrink: 0;
+  width: 398px;
+  height: 251px;
+  position: static;
+}
+.rectangle-493 {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 398px;
+  height: 251px;
+  position: absolute;
+  left: 836px;
+  top: 0px;
+}
+.group-53 {
+  width: 338px;
+  height: 169px;
+  position: static;
+}
+.dep-sito-y-almacenaje {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 866px;
+  top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-69 {
+  background: #e95a0a;
+  border-radius: 6.5px;
+  width: 5px;
+  height: 100px;
+  position: absolute;
+  left: 966px;
+  top: 96px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.instalaciones-seguras-para-el-resguardo-temporal-de-su-carga {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 866px;
+  top: 154px;
+  width: 338px;
+}
+.frame-16 {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  left: -1px;
+  top: 1305px;
+  overflow: hidden;
+}
+._36549009-470302196754989-1710783210272587776-n-1 {
+  width: 1301px;
+  height: 650px;
+  position: absolute;
+  left: 71px;
+  top: 0px;
+  object-fit: cover;
+}
+._36549009-470302196754989-1710783210272587776-n-2 {
+  width: 1301px;
+  height: 650px;
+  position: absolute;
+  left: 1372px;
+  top: 0px;
+  object-fit: cover;
+}
+._36549009-470302196754989-1710783210272587776-n-3 {
+  width: 1301px;
+  height: 650px;
+  position: absolute;
+  left: -1230px;
+  top: 0px;
+  object-fit: cover;
+}
+.group-50 {
+  position: absolute;
+  inset: 0;
+}
+.group-43 {
+  width: 369px;
+  height: 374px;
+  position: static;
+}
+.rectangle-91 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 369px;
+  height: 374px;
+  position: absolute;
+  left: 537px;
+  top: 781px;
+}
+.rectangle-93 {
+  border-radius: 14px 14px 0px 0px;
+  width: 369px;
+  height: 219px;
+  position: absolute;
+  left: 537px;
+  top: 781px;
+  object-fit: cover;
+}
+.cargas-peligrosas-imo {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 562px;
+  top: 1025px;
+  width: 292px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.personal-certificado-y-equipamiento-espec-fico-para-el-transporte-de-mercanc-as-peligrosas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 562px;
+  top: 1068px;
+  width: 312px;
+  height: 62px;
+}
+.group-49 {
+  width: 369px;
+  height: 374px;
+  position: static;
+}
+.rectangle-912 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 369px;
+  height: 374px;
+  position: absolute;
+  left: 926px;
+  top: 781px;
+}
+.rectangle-932 {
+  border-radius: 14px 14px 0px 0px;
+  width: 369px;
+  height: 219px;
+  position: absolute;
+  left: 926px;
+  top: 781px;
+  object-fit: cover;
+}
+.cargas-extra-medidas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 951px;
+  top: 1025px;
+  width: 292px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.soluciones-especiales-para-cargas-de-dimensiones-no-convencionales {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 951px;
+  top: 1068px;
+  width: 312px;
+  height: 62px;
+}
+.group-48 {
+  width: 369px;
+  height: 374px;
+  position: static;
+}
+.rectangle-913 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 369px;
+  height: 374px;
+  position: absolute;
+  left: 146px;
+  top: 781px;
+}
+.rectangle-933 {
+  border-radius: 14px 14px 0px 0px;
+  width: 369px;
+  height: 219px;
+  position: absolute;
+  left: 146px;
+  top: 781px;
+  object-fit: cover;
+}
+.cargas-consolidadas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 171px;
+  top: 1025px;
+  width: 292px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.optimizaci-n-de-costos-mediante-consolidaci-n-de-cargas {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 171px;
+  top: 1068px;
+  width: 312px;
+  height: 62px;
+}
+.group-47 {
+  position: absolute;
+  inset: 0;
+}
+.group-44 {
+  width: 369px;
+  height: 374px;
+  position: static;
+}
+.rectangle-914 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 369px;
+  height: 374px;
+  position: absolute;
+  left: 146px;
+  top: 376px;
+}
+.rectangle-934 {
+  border-radius: 14px 14px 0px 0px;
+  width: 369px;
+  height: 219px;
+  position: absolute;
+  left: 146px;
+  top: 376px;
+  object-fit: cover;
+}
+.cargas-generales-y-especiales {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 171px;
+  top: 620px;
+  width: 237px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.transporte-seguro-y-eficiente-para-todo-tipo-de-mercader-as {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 171px;
+  top: 681px;
+  width: 312px;
+  height: 44px;
+}
+.group-46 {
+  width: 369px;
+  height: 374px;
+  position: static;
+}
+.rectangle-915 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 369px;
+  height: 374px;
+  position: absolute;
+  left: 926px;
+  top: 376px;
+}
+.rectangle-935 {
+  border-radius: 14px 14px 0px 0px;
+  width: 369px;
+  height: 219px;
+  position: absolute;
+  left: 926px;
+  top: 376px;
+  object-fit: cover;
+}
+.contenedores {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 951px;
+  top: 620px;
+  width: 237px;
+}
+.movimiento-de-contenedores-con-total-trazabilidad {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 951px;
+  top: 664px;
+  width: 245px;
+  height: 44px;
+}
+.group-45 {
+  width: 369px;
+  height: 374px;
+  position: static;
+}
+.rectangle-916 {
+  background: #f4f3f3;
+  border-radius: 24px;
+  width: 369px;
+  height: 374px;
+  position: absolute;
+  left: 537px;
+  top: 376px;
+}
+.rectangle-936 {
+  border-radius: 14px 14px 0px 0px;
+  width: 369px;
+  height: 219px;
+  position: absolute;
+  left: 537px;
+  top: 376px;
+  object-fit: cover;
+}
+.cargas-a-granel {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 562px;
+  top: 620px;
+  width: 237px;
+}
+.equipamiento-especializado-para-el-transporte-de-materiales-a-granel {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 562px;
+  top: 664px;
+  width: 312px;
+  height: 44px;
+}
+.nav {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-2 {
+  width: 166px;
+  height: 27px;
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  translate: 0 -50%;
+  object-fit: cover;
+  aspect-ratio: 166/27;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 803px;
+  top: calc(50% - 8px);
+}
+.inicio {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 92px;
+  height: 27px;
+  position: static;
+}
+.servicios2 {
+  color: #ff7629;
+  text-align: center;
+  font-family: "Montserrat-ExtraBold", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  position: absolute;
+  left: 83px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-34 {
+  background: #ff7629;
+  border-radius: 6.5px;
+  width: 3px;
+  height: 43px;
+  position: absolute;
+  left: 165px;
+  top: 24px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.nosotros {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  width: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experiencia {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacto {
+  color: #000000;
+  text-align: center;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  width: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background: #ffffff;
+  width: 100%;
+  height: 336px;
+  position: absolute;
+  left: 0px;
+  top: 2609px;
+  overflow: hidden;
+}
+.rectangle-23 {
+  background: #001a44;
+  width: 100%;
+  height: 336px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.rectangle-24 {
+  background: #0a295c;
+  width: 100%;
+  height: 99px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 237px;
+}
+.seguinos-en {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 1116px;
+  top: 276px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-15 {
+  position: absolute;
+  inset: 0;
+}
+.nuestros-servicios {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 900px;
+  top: 40px;
+}
+.sobre-nosotros {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 900px;
+  top: 82px;
+}
+.experiencia2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 900px;
+  top: 127px;
+}
+.group-14 {
+  position: absolute;
+  inset: 0;
+}
+.contacto2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 1164px;
+  top: 40px;
+}
+._0054-0353-4899128 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 121.88%;
+  font-weight: 500;
+  position: absolute;
+  left: 1164px;
+  top: 82px;
+}
+.info-transcal-com-ar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 121.88%;
+  font-weight: 500;
+  position: absolute;
+  left: 1164px;
+  top: 123px;
+}
+._000-000-000-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 121.88%;
+  font-weight: 500;
+  position: absolute;
+  left: 1164px;
+  top: 160px;
+}
+.t-rminos-y-condiciones {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 70px;
+  top: 276px;
+  width: 217px;
+}
+.facebook-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 1301px;
+  top: 275px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.instagram-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 1348px;
+  top: 275px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.linkedin-1 {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 1254px;
+  top: 275px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.image-5 {
+  width: 276.51px;
+  height: 66px;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+  object-fit: cover;
+  aspect-ratio: 276.51/66;
+}

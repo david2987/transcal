@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ===== PALETA DE COLORES OFICIAL TRANSCAL ===== */
+:root {
+    --transcal-dark-blue: #001A44;
+    --transcal-orange: #E95A0A;
+    --transcal-medium-blue: #0A295C;
+    --transcal-light-blue: #7EABF2;
+    --transcal-black: #000000;
+    --transcal-white: #FFFFFF;
+    --transcal-light-gray: #F4F3F3;
+}
+
+
+.contenedor-banner-home{
+    width: 100%; height: 735px; 
+    background-color:#000; 
+    background-image: url('../recursos/imagenes/home/banner.png');
+    background-size: cover;
+    background-position: 100% 0%;     
+    display: flex;              /* Activamos flexbox */
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: center;  
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor-banner-nosotros{
+    width: 100%; height: 497px; 
+    background-color:#000; 
+    background-image: url('../recursos/imagenes/nosotros/banner.png');
+    background-size: cover;
+    background-position: 50% 100%;     
+    display: flex;              /* Activamos flexbox */
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: center;  
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* para pantallas grandes */
+@media (min-width: 768px) {
+    .carousel-caption{
+        bottom: 9.25rem !important;
+    }
+    .alto-porque-transcal-desktop{
+        height: 97vh;
+    }
+}
+/* para pantallas mobile  */
+@media (max-width: 920px) {
+    .contenedor-banner-home{
+         background-position: 30% 0%; 
+    }
+
+    .contenedor-banner-nosotros{
+        background-size: auto;
+    }
+
+    .btn-transcal{
+        width: 100%;
+    }
+
+    .navbar-collapse   {
+        background-color:#001A44 ;
+    }
+
+    .carousel-caption{
+        right: 0% !important;
+        bottom: 9.25rem !important;
+    }
+ .image-container {
+    max-width: 100%;   /* nunca más grande que el ancho disponible */
+    height: auto !important;      /* mantiene la proporción */
+    display: block;    /* elimina espacios raros */
+    margin: 0 auto;    /* centra la imagen */
+}
+.footer{
+    height: 100% !important;
+}
+.footer-bottom{
+    height: 25vh !important;
+}
+
+.footer-contact{
+    border-top: #7EABF2;
+    border:1px
+}
+
+}
+
+
+/* ===== ESTILOS DE BOTONES OFICIALES ===== */
+.btn-transcal {
+    background-color: var(--transcal-orange);
+    color: var(--transcal-white);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-transcal:hover {
+    background-color: #f56a1a;
+    color: var(--transcal-white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(233, 90, 10, 0.3);
+}
+
+.btn-transcal:disabled {
+    background-color: var(--transcal-light-gray);
+    color: #CCCCCC;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.btn-transcal-dark {
+    background-color: var(--transcal-orange);
+    color: var(--transcal-white);
+}
+
+.btn-transcal-dark:hover {
+    background-color: #f56a1a;
+    color: var(--transcal-white);
+}
+
+.btn-transcal-dark:disabled {
+    background-color: var(--transcal-white);
+    color: #CCCCCC;
+}
+
+.text-orange{
+    color: var(--transcal-orange);
+}
+
+.descripcion-principal{
+/* Transcal S.R.L. nació hace más de 40 años de la visión de Victor Rubén Calvo y Maria del Carmen quienes buscaron crear un servicio de transporte internacional diferencial en el mercado. Hoy, bajo la dirección de sus hijos Maximiliano, Noelia y Laureano, continuamos ese legado de excelencia y compromiso con nuestros clientes. Nuestra sede central, ubicada estratégicamente en La Playosa, Córdoba, sobre la Ruta Nacional Nº 158 km 115.40, punto central de los 6 países con los que trabajamos cuenta con modernas instalaciones que incluyen: Oficinas administrativas y de logística Base operativa Taller de mantenimiento Estacionamiento para nuestra flota */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+color: #000000;
+
+
+/* or 156% */
+
+}
+
+.descripcion-principal2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #000000;
+}
+
+.descripcion-secundaria{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+}
+
+.lista-instalaciones{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight:800;
+}
+
+/* Estilos para el divisor de estadísticas */
+.frame-4 {
+    background: #001A44;
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.group-12, .group-11, .group-14, .group-13, .group-10 {
+    text-align: center;
+    flex: 1;
+    padding: 0 1rem;
+}
+
+._40-a-os, ._6-pa-ses, ._80-flota, .semiremolques, .tractores {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.de-experiencia, .conectados, ._2018-en-adelante, .equipados, .de-ltima-generaci-n {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--transcal-light-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Estilos para la sección "Quiénes somos" */
+.frame-6 {
+    background-color: #ffffff;
+    padding: 10rem 0;
+    position: relative;
+}
+
+
+
+.image-container {    
+    /* padding: 1rem; */
+    height: 475px;
+}
+
+.truck-image {
+    margin-top: 100px;
+    width: 100%;    
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.truck-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}
+
+.content-wrapper {
+    padding: 2rem 1rem;
+}
+
+.qui-nes-somos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #f97316;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.text-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.paragraph-1, .paragraph-2, .paragraph-3 {
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Estilos para la sección "Nuestras Soluciones" */
+.frame-7 {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+
+.nuestras-soluciones {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.service-card {
+    background-color: #f8f8f8;
+    border-radius: 12px;   
+    text-align: center;
+    height: 232px;
+    width: 369px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.icon-container {
+    margin-bottom: 1.5rem;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    height: 232px;    
+    justify-items: center;
+}
+
+.service-icon {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(2476%) hue-rotate(16deg) brightness(101%) contrast(101%);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+    transform: scale(1.1);
+}
+
+.service-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+
+/* Estilos para la sección "¿Por qué elegir Transcal?" */
+.frame-8 {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.por-qu-elegir-transcal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;    
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.check-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-icon img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(2476%) hue-rotate(16deg) brightness(101%) contrast(101%);
+}
+
+.benefit-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #374151;
+    line-height: 1.5;
+    flex: 1;
+}
+
+/* Estilos para el Banner Hero de Soluciones Logísticas */
+.hero-banner {
+    background:#001A44;
+    background-size: cover;
+    background-position: center;   
+    overflow: hidden;
+    height: 645px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* Rectangle 60 */
+}
+
+.hero-image{
+    background-image: url('../recursos/imagenes/home/rectangle-606.png');
+     width: 100%;
+    height: 100%;    
+    background-size: cover; /* La imagen cubre todo el div */
+    background-position: center; /* Centra la imagen */
+    opacity: 2; 
+    align-content: center;
+
+    /* Rectangle 60 */    
+}
+/* Estilos para el Banner Hero de Soluciones Logísticas */
+.hero-banner-experiencia-desktop {
+    background:#001A44;
+    background-size: cover;
+    background-position: center;   
+    overflow: hidden;
+    height: 645px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* Rectangle 60 */
+}
+
+.hero-image-experiencia-desktop{
+    background-image: url('../recursos/imagenes/experiencia/rectangle-700.png');
+     width: 100%;
+    height: 100%;    
+    background-size: cover; /* La imagen cubre todo el div */
+    background-position: center; /* Centra la imagen */
+    opacity: 2; 
+    align-content: center;
+
+    /* Rectangle 60 */    
+}
+
+
+.hero-image-contacto{
+    background-image: url('../recursos/imagenes/contacto/rectangle-600.png');
+    width: 100%;
+    height: 100%;    
+    background-size: cover; /* La imagen cubre todo el div */
+    background-position: center; /* Centra la imagen */
+    opacity: 0.9; 
+    align-content: center;
+
+    /* Rectangle 60 */    
+}
+
+
+
+.hero-overlay {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    line-height: 1.2;    
+}
+
+.hero-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.hero-cta {
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    background-color: #f97316;
+    border-color: #f97316;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #ea580c;
+    border-color: #ea580c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+}
+
+.btn-primary:focus {
+    background-color: #ea580c;
+    border-color: #ea580c;
+    box-shadow: 0 0 0 0.2rem rgba(249, 115, 22, 0.25);
+}
+
+/* Estilos para el Footer */
+.footer {
+    background-color: #001A44;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    height: 336px;
+}
+
+.footer-top {
+    padding: 3rem 0 2rem 0;
+}
+
+.footer-bottom {
+    background-color: #0A295C;
+    padding: 1.5rem 0;
+    height: 99px;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0;
+}
+
+/* Logo del footer */
+.footer-logo {
+    margin-bottom: 1rem;
+}
+
+.logo-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.logo-trans {
+    color: #f97316;
+}
+
+.logo-cal {
+    color: #ffffff;
+}
+
+.logo-tagline {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* Navegación del footer */
+.footer-nav {
+    margin-bottom: 1rem;
+    justify-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-bottom: 0.8rem;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f97316;
+}
+
+/* Información de contacto */
+.footer-contact {
+    margin-bottom: 1rem;
+}
+
+.contact-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.contact-info {
+    margin: 0;
+}
+
+.contact-item {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Sección inferior del footer */
+.footer-legal {
+    text-align: left;
+}
+
+.terms-text {
+    color: #ffffff;
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.footer-social {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.social-text {
+    color: #ffffff;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.social-icons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid #ffffff; */
+    /* border-radius: 50%; */
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    border-color: #f97316;
+    transform: scale(1.1);
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.texto-camion-experiencia{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.texto-negrita-camion-experiencia{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+
+
+/* Responsive design para estadísticas */
+@media (max-width: 768px) {
+    .frame-5 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    ._40-a-os, ._6-pa-ses, ._80-flota, .semiremolques, .tractores {
+        font-size: 2rem;
+    }
+    
+    .de-experiencia, .conectados, ._2018-en-adelante, .equipados, .de-ltima-generaci-n {
+        font-size: 0.9rem;
+    }
+
+    .texto-negrita-camion-experiencia{
+        /* Disponemos de una red de despachantes y apoderados en todas las fronteras de los países limítrofes, garantizando una gestión eficiente y rápida resolución de cualquier situación. */
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .texto-camion-experiencia{
+        /* Disponemos de una red de despachantes y apoderados en todas las fronteras de los países limítrofes, garantizando una gestión eficiente y rápida resolución de cualquier situación. */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        margin-left: 10px;
+
+        color: #FFFFFF;
+
+    }
+
+    .hero-image{
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .frame-4 {
+        padding: 2rem 0;
+    }
+    
+    ._40-a-os, ._6-pa-ses, ._80-flota, .semiremolques, .tractores {
+        font-size: 1.5rem;
+    }
+    
+    .de-experiencia, .conectados, ._2018-en-adelante, .equipados, .de-ltima-generaci-n {
+        font-size: 0.8rem;
+    }
+}
+
+/* Responsive design para "Quiénes somos" */
+@media (max-width: 768px) {
+    .frame-6 {
+        padding: 3rem 0;
+    }
+    
+    .qui-nes-somos {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .content-wrapper {
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .text-content p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .qui-nes-somos {
+        font-size: 2rem;
+    }
+    
+    .text-content p {
+        font-size: 1rem;
+    }
+    
+    .truck-image {
+        max-width: 100%;
+    }
+}
+
+/* Responsive design para "Nuestras Soluciones" */
+@media (max-width: 768px) {
+    .frame-7 {
+        padding: 3rem 0;
+    }
+    
+    .nuestras-soluciones {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .service-card {
+        padding: 1.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .service-title {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nuestras-soluciones {
+        font-size: 1.5rem;
+    }
+    
+    .service-card {
+        padding: 1rem;
+        justify-self: center;
+    }
+    
+    .service-title {
+        font-size: 0.8rem;
+    }
+    
+    .icon-container {
+        height: 100%;
+    }
+    
+    .service-icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.nosotros-principal{
+    margin-top: 13vh;
+}
+
+/* Responsive design para "¿Por qué elegir Transcal?" */
+@media (max-width: 768px) {
+    .frame-8 {
+        padding: 3rem 0;
+    }
+    
+    .por-qu-elegir-transcal {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .benefits-list {
+        gap: 1.2rem;
+    }
+    
+    .benefit-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .por-qu-elegir-transcal {
+        font-size: 1.5rem;
+    }
+    
+    .benefit-item {
+        gap: 0.8rem;
+    }
+    
+    .check-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .benefit-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive design para el Banner Hero */
+@media (max-width: 768px) {
+    .hero-banner {
+        min-height: 70vh;
+    }
+    .hero-banner-experiencia{
+    background:#001A44;
+    background-size: cover;
+    background-position: center;   
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .btn-primary {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-banner {
+        min-height: 60vh;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .btn-primary {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive design para el Footer */
+@media (max-width: 768px) {
+    .footer-top {
+        padding: 2rem 0 1.5rem 0;
+    }
+    
+    .footer-bottom {
+        padding: 1rem 0;
+    }
+    
+    .logo-text {
+        font-size: 2rem;
+    }
+    
+    .footer-social {
+        text-align: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    .footer-legal {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-text {
+        font-size: 1.8rem;
+    }
+    
+    .logo-tagline {
+        font-size: 0.8rem;
+    }
+    
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+    
+    .contact-title {
+        font-size: 1.1rem;
+    }
+    
+    .contact-item {
+        font-size: 0.9rem;
+    }
+    
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .social-icon img {
+        width: 18px;
+        height: 18px;
+    }
+
+
+}
+

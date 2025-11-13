@@ -5,32 +5,32 @@
 
          <!-- Columna derecha: Valores -->
             <div class="col-lg-6">
-                <div class="seccion-valores">
-                    <h2 class="titulo-seccion">Contamos con todas las<br> habilitaciones necesarias para:</h2>
+                <div class="seccion-valores animate-slide-left">
+                    <h2 class="titulo-seccion animate-fade">Contamos con todas las<br> habilitaciones necesarias para:</h2>
                                       
                     <ul class="lista-valores">
                         <li>
-                          <img src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class=" d-block" >
+                          <img loading="lazy" src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class=" d-block" >
                             <span class="valor-texto">Transporte de cargas generales</span>
                         </li>
                         <li>
-                          <img src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
+                          <img loading="lazy" src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
                             <span class="valor-texto">Cargas peligrosas</span>
                         </li>
                         <li>
-                          <img src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
+                          <img loading="lazy" src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
                             <span class="valor-texto">Cargas completas</span>
                         </li>
                         <li>
-                          <img src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
+                          <img loading="lazy" src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
                             <span class="valor-texto">Cargas consolidadas</span>
                         </li>
                         <li>
-                          <img src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
+                          <img loading="lazy" src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
                             <span class="valor-texto">Contenedores</span>
                         </li>
                         <li>
-                          <img src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
+                          <img loading="lazy" src="<?= URL_IMG ?>/nosotros/check-2-circle-1-10.svg" class="d-block" >
                             <span class="valor-texto">Cargas con extra medida</span>
                         </li>
                       
@@ -39,7 +39,7 @@
             </div>
             <!-- Columna izquierda: Misión y Visión -->
             <div class="col-lg-6">
-                <img class="image-container " src="<?= URL_IMG ?>/experiencia/camion2.png"  alt="Flota Transcal" /> 
+                <img loading="lazy" class="image-container parallax animate-slide-right" data-parallax="0.2" src="<?= URL_IMG ?>/experiencia/camion2.png"  alt="Flota Transcal" /> 
             </div>
             
            

@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Logo TRANSCAL -->
         <a class="navbar-brand" href="index.php">            
-            <img src="<?= URL_IMG ?>home/logo-transparente.png" class="w-block w-100" >                        
+            <img loading="lazy" src="<?= URL_IMG ?>home/logo-transparente.png" class="w-block w-100" >                        
         </a>
         
         <!-- Botón hamburguesa para móvil -->

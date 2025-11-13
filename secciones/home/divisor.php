@@ -4,7 +4,7 @@
       <div class="col-12">
         <div class="frame-5">
           <div class="group-12">
-            <div class="_40-a-os">+40 AÑOS</div>
+            <div class="_40-a-os">+45 AÑOS</div>
             <div class="de-experiencia">DE EXPERIENCIA</div>
           </div>
           <div class="group-11">

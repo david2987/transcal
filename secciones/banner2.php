@@ -8,7 +8,7 @@
         <p>...</p>
       </div>
       <div class="imagenBannerDesk d-none d-md-block">
-        <img src="<?= URL_IMG ?>/nosotros/banner.png" class="d-block w-100 img-fluid" alt="Banner escritorio">
+        <img loading="lazy" src="<?= URL_IMG ?>/nosotros/banner.jpg" class="d-block w-100 img-fluid" alt="Banner escritorio">
       </div>
      
     </div>

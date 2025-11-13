@@ -13,5 +13,6 @@
     <link rel="stylesheet" href="<?= URL_HOST ?>/css/style.css?var=<?= date('U'); ?>">
     <link rel="stylesheet" href="<?= URL_HOST ?>/css/transcal-colors.css?var=<?= date('U'); ?>">
     <link rel="icon" href="<?= URL_HOST ?>favicon.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="<?= URL_HOST ?>/js/scroll-animations.js?var=<?= date('U'); ?>" defer></script>
 </head>

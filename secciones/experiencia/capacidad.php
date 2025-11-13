@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Título Principal -->
         <div class="titulo-principal text-center mb-5">
-            <h1>
+            <h1 class="animate-fade">
                 <span class="texto-gris">Nuestra</span>
                 <span class="texto-naranja">capacidad operativa</span>
             </h1>
@@ -12,10 +12,10 @@
         <!-- Tarjetas de Capacidad -->
         <div class="row">
             <!-- Tarjeta 1: FLOTA MODERNA -->
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 mb-4 animate-scale">
                 <div class="tarjeta-capacidad">
                     <div class="imagen-tarjeta">
-                        <img src="recursos/imagenes/experiencia/rectangle-790.png" alt="Flota Moderna" class="img-fluid">
+                        <img src="recursos/imagenes/experiencia/rectangle-790.png" alt="Flota Moderna" class="img-fluid parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-tarjeta">
                         <h3 class="titulo-tarjeta">FLOTA MODERNA</h3>
@@ -28,10 +28,10 @@
             </div>
             
             <!-- Tarjeta 2: COBERTURA INTERNACIONAL -->
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 mb-4 animate-scale">
                 <div class="tarjeta-capacidad">
                     <div class="imagen-tarjeta">
-                        <img src="recursos/imagenes/experiencia/rectangle-791.png" alt="Cobertura Internacional" class="img-fluid">
+                        <img src="recursos/imagenes/experiencia/rectangle-791.png" alt="Cobertura Internacional" class="img-fluid parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-tarjeta">
                         <span class="titulo-tarjeta">COBERTURA INTERNACIONAL</span>
@@ -44,10 +44,10 @@
             </div>
             
             <!-- Tarjeta 3: PERSONAL CALIFICADO -->
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 mb-4 animate-scale">
                 <div class="tarjeta-capacidad">
                     <div class="imagen-tarjeta">
-                        <img src="recursos/imagenes/experiencia/rectangle-792.png" alt="Personal Calificado" class="img-fluid">
+                        <img src="recursos/imagenes/experiencia/rectangle-792.png" alt="Personal Calificado" class="img-fluid parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-tarjeta">
                         <span class="titulo-tarjeta">PERSONAL CALIFICADO</span>
@@ -84,9 +84,9 @@
 }
 
 .tarjeta-capacidad {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    /* background: white; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
     overflow: hidden;
     height: 100%;
     transition: transform 0.3s ease;

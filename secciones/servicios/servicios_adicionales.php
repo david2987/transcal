@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Título principal -->
         <div class="text-center mb-5">
-            <h1 class="titulo-principal">
+            <h1 class="titulo-principal animate-fade">
                 Servicios adicionales para una 
                 <span class="destacado">logística integral</span>
             </h1>
@@ -12,7 +12,7 @@
         <!-- Grid de servicios adicionales -->
         <div class="row g-4">
             <!-- 1. DESPACHOS ADUANEROS -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-slide-up">
                 <div class="servicio-adicional-card">
                     <h3 class="titulo-servicio">DESPACHOS ADUANEROS</h3>
                     <div class="separador"></div>
@@ -23,7 +23,7 @@
             </div>
 
             <!-- 2. SEGUROS DE CARGA -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-slide-up">
                 <div class="servicio-adicional-card">
                     <h3 class="titulo-servicio">SEGUROS DE CARGA</h3>
                     <div class="separador"></div>
@@ -34,7 +34,7 @@
             </div>
 
             <!-- 3. DEPÓSITO Y ALMACENAJE -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-slide-up">
                 <div class="servicio-adicional-card">
                     <h3 class="titulo-servicio">DEPÓSITO Y ALMACENAJE</h3>
                     <div class="separador"></div>

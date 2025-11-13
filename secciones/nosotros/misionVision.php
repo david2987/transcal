@@ -5,19 +5,19 @@
             <!-- Columna izquierda: Misión y Visión -->
             <div class="col-lg-6">
                 <!-- MISIÓN -->
-                <div class="seccion-mision">
-                    <h2 class="titulo-seccion">MISIÓN</h2>
+                <div class="seccion-mision animate-slide-right">
+                    <h2 class="titulo-seccion animate-fade">MISIÓN</h2>
                     <div class="separador-naranja"></div>
-                    <p class="descripcion-seccion">
+                    <p class="descripcion-seccion animate-slide-up">
                         Brindar soluciones logisticas a nuestros clientes para que puedan desarrollar sus negocios de la manera más eficiente posible.
                     </p>
                 </div>
                 
                 <!-- VISIÓN -->
-                <div class="seccion-vision">
-                    <h2 class="titulo-seccion">VISIÓN</h2>
+                <div class="seccion-vision animate-slide-right">
+                    <h2 class="titulo-seccion animate-fade">VISIÓN</h2>
                     <div class="separador-naranja"></div>
-                    <p class="descripcion-seccion">
+                    <p class="descripcion-seccion animate-slide-up">
                         Desarrollar una red de soluciones logisticas en la que podamos llegar a todo el Mercosur ofreciendo excelencia en el servicio.
                     </p>
                 </div>
@@ -25,8 +25,8 @@
             
             <!-- Columna derecha: Valores -->
             <div class="col-lg-6">
-                <div class="seccion-valores">
-                    <h2 class="titulo-seccion">NUESTROS VALORES</h2>
+                <div class="seccion-valores animate-slide-left">
+                    <h2 class="titulo-seccion animate-fade">NUESTROS VALORES</h2>
                     <div class="separador-naranja"></div>
                     
                     <ul class="lista-valores">

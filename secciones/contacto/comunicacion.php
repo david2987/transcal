@@ -4,14 +4,14 @@
     <div class="canales-comunicacion">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="titulo-canales">
+                <h2 class="titulo-canales animate-fade">
                     Comunícate con nosotros a través de:
                 </h2>
             </div>
 
             <div class="row">
                 <!-- Tarjeta WhatsApp -->
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4 animate-scale">
                     <div class="tarjeta-canal">
                         <h3 class="titulo-canal">WHATSAPP</h3>
                         <p class="info-canal">+(549) 353 6559863</p>
@@ -19,7 +19,7 @@
                 </div>
 
                 <!-- Tarjeta Teléfono -->
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4 animate-scale">
                     <div class="tarjeta-canal">
                         <h3 class="titulo-canal">TELÉFONO</h3>
                         <p class="info-canal">+(549)353 4899128 </p>
@@ -27,7 +27,7 @@
                 </div>
 
                 <!-- Tarjeta Email -->
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-4 mb-4 animate-scale">
                     <div class="tarjeta-canal">
                         <h3 class="titulo-canal">EMAIL</h3>
                         <p class="info-canal">mlcalvo@transcal.com.ar</p>

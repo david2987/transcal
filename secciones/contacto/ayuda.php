@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Header Principal -->
         <div class="header-principal text-center mb-5">
-            <h1>
+            <h1 class="animate-fade">
                 <span class="texto-gris">Estamos para</span>
                 <span class="texto-naranja">ayudarte</span>
             </h1>
@@ -13,7 +13,7 @@
         <div class="row">
             <!-- Columna Izquierda: Mapa y Ubicación -->
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="tarjeta-ubicacion">
+                <div class="tarjeta-ubicacion animate-slide-right">
                     <!-- Mapa -->
                     <div class="mapa-container">                       
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.0177258036742!2d-63.026681499999995!3d-32.095806599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc43e18a0d9451%3A0x70696cb4a28ddd8d!2sTRANSCAL%20SRL!5e0!3m2!1ses!2sar!4v1757373409129!5m2!1ses!2sar" 
@@ -39,8 +39,8 @@
 
             <!-- Columna Derecha: Formulario de Contacto -->
             <div class="col-lg-6">
-                <div class="tarjeta-formulario">
-                    <h3 class="titulo-formulario">Formulario de contacto</h3>
+                <div class="tarjeta-formulario animate-slide-left">
+                    <h3 class="titulo-formulario animate-fade">Formulario de contacto</h3>
 
                     <form class="formulario-contacto" action="procesar_formulario.php" method="POST">
                         <!-- Primera fila -->

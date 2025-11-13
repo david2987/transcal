@@ -1,24 +1,22 @@
 <div class="frame-8">
   <div class="container alto-porque-transcal-desktop">
-    <div class="row align-items-center">
-
-
-
+    <div class="row ">
       <!-- Columna izquierda - Lista de beneficios -->
-      <div class="col-lg-6 col-md-12 mb-4 ">
-        <div class="col-12 d-block d-md-none mb-4 ">
+      <div class="col-lg-6 col-md-12 ">
+        <div class="col-12 d-block d-md-none  ">
           <div class="image-container">
             <img class="truck-image" src="recursos/imagenes/home/camion.png" alt="Camión Transcal Mobile" />
           </div>
         </div>
 
         <div class="content-wrapper">
-          <h2 class="por-qu-elegir-transcal">¿Por qué elegir Transcal?</h2>
+          <h2 class="por-qu-elegir-transcal">¿Por qué elegir Transcal?</h2>          
           <div class="benefits-list">
             <div class="benefit-item">
               <div class="check-icon">
                 <img src="recursos/imagenes/home/check-2-circle-1-10.svg" alt="Check" />
               </div>
+          
               <span class="benefit-text">Experiencia comprobada en comercio internacional</span>
             </div>
 
@@ -64,7 +62,7 @@
       <div class="col-lg-6 col-md-12  d-none d-md-block">
         <div class="image-container">
           <!-- <img class="truck-image" src="recursos/imagenes/home/camion.png" alt="Camión Transcal" /> -->
-          <video controls autoplay loop muted style="width: 100%;">
+          <video controls  loop muted style="width: 100%;">
             <source src="recursos/imagenes/home/porque elegir tc.MP4" type="video/mp4" />            
             <p>
               Su navegador no soporta video HTML5. Aquí hay un

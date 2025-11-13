@@ -58,13 +58,13 @@
           <div class="footer-social">
             <span class="social-text">Seguinos en</span>
             <div class="social-icons">
-              <a href="#" class="social-icon">
+              <a href="https://www.linkedin.com/company/transcal-srl/?originalSubdomain=ar" class="social-icon">
                 <img src="recursos/imagenes/contacto/linkedin-10.svg" alt="LinkedIn" />
               </a>
-              <a href="#" class="social-icon">
+              <a href="https://www.facebook.com/Transcalsrl" class="social-icon">
                 <img src="recursos/imagenes/contacto/facebook-10.svg" alt="Facebook" />
               </a>
-              <a href="#" class="social-icon">
+              <a href="https://www.instagram.com/transcalsrl/" class="social-icon">
                 <img src="recursos/imagenes/contacto/instagram-10.svg" alt="Instagram" />
               </a>
             </div>

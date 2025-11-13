@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="" style="
+        <h2 class="animate-fade" style="
         font-family: Montserrat;
          font-size: 35px;
           text-align: center;
@@ -13,7 +13,7 @@
     
     <div class="row justify-content-center">
       <!-- Transporte Internacional -->
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 " style="justify-items: center; ">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate-scale" style="justify-items: center; ">
         <div class="service-card">
           <div class="icon-container">
             <div>
@@ -27,7 +27,7 @@
       </div>
       
       <!-- Cargas Generales y Especiales -->
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="justify-items: center; ">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate-scale" style="justify-items: center; ">
         <div class="service-card">
           <div class="icon-container">
             <img class="service-icon" src="recursos/imagenes/home/box-seam-3-10.svg" alt="Cargas Generales y Especiales" />
@@ -39,7 +39,7 @@
       </div>
       
       <!-- Logística Integral -->
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="justify-items: center; ">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate-scale" style="justify-items: center; ">
         <div class="service-card">
           <div class="icon-container">
             <img class="service-icon" src="recursos/imagenes/home/truck-1-10.svg" alt="Logística Integral" />
@@ -52,7 +52,7 @@
       </div>
       
       <!-- Despachos Aduaneros -->
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="justify-items: center; ">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate-scale" style="justify-items: center; ">
         <div class="service-card">
           <div class="icon-container">
             <img class="service-icon" src="recursos/imagenes/home/clipboard-2-check-10.svg" alt="Despachos Aduaneros" />
@@ -64,7 +64,7 @@
       </div>
       
       <!-- Seguros de Carga -->
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="justify-items: center; ">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate-scale" style="justify-items: center; ">
         <div class="service-card">
           <div class="icon-container">
             <img class="service-icon" src="recursos/imagenes/home/shield-check-1-10.svg" alt="Seguros de Carga" />
@@ -76,7 +76,7 @@
       </div>
       
       <!-- Depósito y Almacenaje -->
-      <div class="col-lg-4 col-md-6 col-sm-12 mb-4" style="justify-items: center; ">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 animate-scale" style="justify-items: center; ">
         <div class="service-card">
           <div class="icon-container">
             <img class="service-icon" src="recursos/imagenes/home/shop-window-1-10.svg" alt="Depósito y Almacenaje" />

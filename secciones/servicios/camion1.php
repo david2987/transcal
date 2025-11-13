@@ -3,17 +3,17 @@
     <div class="container">
         <!-- Header de la sección -->
         <div class="text-center mb-5">
-            <h1 class="titulo-principal">Ofrecemos soluciones de transporte</h1>
-            <h2 class="subtitulo">adaptadas a cada necesidad</h2>
+            <h1 class="titulo-principal animate-fade">Ofrecemos soluciones de transporte</h1>
+            <h2 class="subtitulo animate-fade">adaptadas a cada necesidad</h2>
         </div>
 
         <!-- Grid de servicios -->
         <div class="row g-4">
             <!-- 1. CARGAS GENERALES Y ESPECIALES -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-scale">
                 <div class="servicio-card">
                     <div class="imagen-servicio">
-                        <img src="<?= URL_IMG ?>/servicios/rectangle-933.png" alt="Cargas Generales y Especiales" class="img-fluid rounded">
+                        <img src="<?= URL_IMG ?>/servicios/rectangle-933.png" alt="Cargas Generales y Especiales" class="img-fluid rounded parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-servicio">
                         <h3 class="titulo-servicio">CARGAS GENERALES Y ESPECIALES</h3>
@@ -23,10 +23,10 @@
             </div>
 
             <!-- 2. CARGAS A GRANEL -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-scale">
                 <div class="servicio-card">
                     <div class="imagen-servicio">
-                        <img src="<?= URL_IMG ?>/servicios/rectangle-935.png" alt="Cargas a Granel" class="img-fluid rounded">
+                        <img src="<?= URL_IMG ?>/servicios/rectangle-935.png" alt="Cargas a Granel" class="img-fluid rounded parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-servicio">
                         <h3 class="titulo-servicio">CARGAS A GRANEL</h3>
@@ -36,10 +36,10 @@
             </div>
 
             <!-- 3. CONTENEDORES -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-scale">
                 <div class="servicio-card">
                     <div class="imagen-servicio">
-                        <img src="<?= URL_IMG ?>/servicios/rectangle-934.png" alt="Contenedores" class="img-fluid rounded">
+                        <img src="<?= URL_IMG ?>/servicios/rectangle-934.png" alt="Contenedores" class="img-fluid rounded parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-servicio">
                         <h3 class="titulo-servicio">CONTENEDORES</h3>
@@ -49,10 +49,10 @@
             </div>
 
             <!-- 4. CARGAS CONSOLIDADAS -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-scale">
                 <div class="servicio-card">
                     <div class="imagen-servicio">
-                        <img src="<?= URL_IMG ?>/servicios/rectangle-932.png" alt="Cargas Consolidadas" class="img-fluid rounded">
+                        <img src="<?= URL_IMG ?>/servicios/rectangle-932.png" alt="Cargas Consolidadas" class="img-fluid rounded parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-servicio">
                         <h3 class="titulo-servicio">CARGAS CONSOLIDADAS</h3>
@@ -62,10 +62,10 @@
             </div>
 
             <!-- 5. CARGAS PELIGROSAS (IMO) -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-scale">
                 <div class="servicio-card">
                     <div class="imagen-servicio">
-                        <img src="<?= URL_IMG ?>/servicios/rectangle-930.png" alt="Cargas Peligrosas IMO" class="img-fluid rounded">
+                        <img src="<?= URL_IMG ?>/servicios/rectangle-930.png" alt="Cargas Peligrosas IMO" class="img-fluid rounded parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-servicio">
                         <h3 class="titulo-servicio">CARGAS PELIGROSAS (IMO)</h3>
@@ -75,10 +75,10 @@
             </div>
 
             <!-- 6. CARGAS EXTRA MEDIDAS -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 animate-scale">
                 <div class="servicio-card">
                     <div class="imagen-servicio">
-                        <img src="<?= URL_IMG ?>/servicios/rectangle-931.png" alt="Cargas Extra Medidas" class="img-fluid rounded">
+                        <img src="<?= URL_IMG ?>/servicios/rectangle-931.png" alt="Cargas Extra Medidas" class="img-fluid rounded parallax" data-parallax="0.15">
                     </div>
                     <div class="contenido-servicio">
                         <h3 class="titulo-servicio">CARGAS EXTRA MEDIDAS</h3>
@@ -131,7 +131,7 @@
 
 .servicio-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    /* box-shadow: 0 8px 25px rgba(0,0,0,0.15); */
 }
 
 .imagen-servicio {

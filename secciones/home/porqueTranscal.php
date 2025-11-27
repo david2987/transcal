@@ -63,10 +63,10 @@
         <div class="image-container">
           <!-- <img class="truck-image" src="recursos/imagenes/home/camion.png" alt="Camión Transcal" /> -->
           <video controls  loop muted style="width: 100%;">
-            <source src="recursos/imagenes/home/porque elegir tc.MP4" type="video/mp4" />            
+            <source preload="none" src="recursos/imagenes/home/porque elegir tc.webm" type="video/webm" />            
             <p>
               Su navegador no soporta video HTML5. Aquí hay un
-              <a href="recursos/imagenes/home/porque elegir tc.MP4">enlace al video</a>.
+              <a href="recursos/imagenes/home/porque elegir tc.webm">enlace al video</a>.
             </p>
           </video>
         </div>

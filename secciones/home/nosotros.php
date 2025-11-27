@@ -5,7 +5,7 @@
       </div>
       <!-- Columna de imagen -->
       <div class="col-lg-4 col-md-12 mb-4">        
-            <img loading="lazy" class="image-container animate-slide-right parallax" data-parallax="0.2" src="<?= URL_IMG ?>/home/camion3_2.jpg" alt="Flota Transcal" style="width: 100%;" />        
+            <img loading="lazy" class="image-container animate-slide-right parallax" data-parallax="0.2" src="<?= URL_IMG ?>/home/camion3_2.jpg" alt="Flota Transcal" style="width: 100%; border-radius: 15px; " />        
       </div>      
       <!-- Columna de texto -->
       <div class="col-lg-6 col-md-12">
